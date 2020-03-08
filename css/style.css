@@ -23,7 +23,7 @@
 
 /* class nama */
 
-#ricky {
+.ricky {
     background-image: url("../img/ricky.jpg");
     background-color: tomato;
     height: 150px;
@@ -32,16 +32,65 @@
     background-size: cover;
 }
 
-.janu {}
+.janu {
+    background-image: url("../img/janu.png");
+    background-color: tomato;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.umar {}
+.umar {
+    background-image: url("../img/umar.png");
+    background-color: tomato;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.reza {}
+.reza {
+    background-image: url("../img/reza.png");
+    background-color: tomato;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.purno {}
+.purno {
+    background-image: url("../img/purno.png");
+    background-color: tomato;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.fuad {}
+.fuad {
+    background-image: url("../img/fuad.png");
+    background-color: tomato;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.gani {}
+.gani {
+    background-image: url("../img/gani.png");
+    background-color: tomato;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.adit {}
+.adit {
+    background-image: url("../img/adit.png");
+    background-color: tomato;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
