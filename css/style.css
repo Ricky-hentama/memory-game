@@ -1,0 +1,47 @@
+.papan {
+
+    margin: auto;
+}
+
+.baris {
+    text-align: center;
+}
+
+.kartu {
+    background-color: #cfc8c8;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.kartu:hover {
+    box-shadow: inset 0px 0px 0px 4px red;
+    box-sizing: border-box;
+}
+
+/* class nama */
+
+#ricky {
+    background-image: url("adit.png");
+    background-color: tomato;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.janu {}
+
+.umar {}
+
+.reza {}
+
+.purno {}
+
+.fuad {}
+
+.gani {}
+
+.adit {}
