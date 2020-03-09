@@ -20,6 +20,10 @@ h1 {
   cursor: pointer;
 }
 
+.done {
+  cursor: default;
+}
+
 .kartu:hover {
   box-shadow: inset 0px 0px 0px 2px red;
   box-sizing: border-box;
