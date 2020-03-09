@@ -1,96 +1,105 @@
-.papan {
+h1 {
+  text-align: center;
+  color: hsl(182, 65%, 55%);
+}
 
-    margin: auto;
+.papan {
+  margin: auto;
 }
 
 .baris {
-    text-align: center;
+  text-align: center;
 }
 
 .kartu {
-    background-color: #cfc8c8;
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    margin: 2px 2px;
-    cursor: pointer;
+  background-color: #cfc8c8;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin: 2px 2px;
+  cursor: pointer;
 }
 
 .kartu:hover {
-    box-shadow: inset 0px 0px 0px 4px red;
-    box-sizing: border-box;
+  box-shadow: inset 0px 0px 0px 2px red;
+  box-sizing: border-box;
 }
 
 /* class nama */
 
 .ricky {
-    background-image: url("../img/ricky.jpg");
-    background-color: tomato;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/ricky.jpg");
+  background-color: tomato;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .janu {
-    background-image: url("../img/janu.png");
-    background-color: tomato;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/janu.png");
+  background-color: tomato;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .umar {
-    background-image: url("../img/umar.png");
-    background-color: tomato;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/umar.png");
+  background-color: tomato;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .reza {
-    background-image: url("../img/reza.png");
-    background-color: tomato;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/reza.png");
+  background-color: tomato;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .purno {
-    background-image: url("../img/purno.png");
-    background-color: tomato;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/purno.png");
+  background-color: tomato;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fuad {
-    background-image: url("../img/fuad.png");
-    background-color: tomato;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/fuad.png");
+  background-color: tomato;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gani {
-    background-image: url("../img/gani.png");
-    background-color: tomato;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/gani.png");
+  background-color: tomato;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .adit {
-    background-image: url("../img/adit.png");
-    background-color: tomato;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/adit.png");
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* akhir class nama */
+
+.color-hidden {
+  background-image: url("../img/cover-penta.jpg");
 }
