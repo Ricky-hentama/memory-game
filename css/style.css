@@ -4,7 +4,7 @@ h1 {
 }
 
 a {
-  display: block;
+  display: inline;
   margin: 2px auto;
   width: 200px;
 }
