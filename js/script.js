@@ -15,6 +15,7 @@ $(document).ready(function() {
   ];
 
   const kartu = [...$(".kartu")];
+
   for (let nama of semuaNama) {
     const kartuA_index = parseInt(Math.random() * kartu.length);
     const kartuA = kartu[kartuA_index];

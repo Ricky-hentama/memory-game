@@ -3,6 +3,12 @@ h1 {
   color: hsl(182, 65%, 55%);
 }
 
+a {
+  display: block;
+  margin: 2px auto;
+  width: 200px;
+}
+
 .papan {
   margin: auto;
 }
