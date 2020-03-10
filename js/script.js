@@ -15,7 +15,6 @@ $(document).ready(function() {
   ];
 
   const kartu = [...$(".kartu")];
-
   for (let nama of semuaNama) {
     const kartuA_index = parseInt(Math.random() * kartu.length);
     const kartuA = kartu[kartuA_index];
@@ -66,7 +65,13 @@ $(document).ready(function() {
         TerKlik = null;
         klikSebelumnya = false;
         if (kartuCocok == 8) {
-          alert("YEY kamu CROTTTT");
+          alert("YEY kamu Berhasil");
+          let mainLagi = confirm("coba lagi?");
+          if (mainLagi === true) {
+            window.location.replace(
+              "https://ricky-hentama.github.io/memory-game/"
+            );
+          }
         }
       }
     }
