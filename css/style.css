@@ -3,10 +3,8 @@ h1 {
   color: hsl(182, 65%, 55%);
 }
 
-a {
-  display: inline;
-  margin: 2px auto;
-  width: 200px;
+#github {
+  margin-top: -5px;
 }
 
 .papan {
