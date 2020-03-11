@@ -4,23 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Memory Game</title>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <script src="js/script.js"></script>
   </head>
 
   <body>
     <h1>Penta's Memory Game</h1>
-    <div class="text-center">
+	
+    <div class="text-center pt-2 pb-4">
       <a
-        href="https://ricky-hentama.github.io/memory-game/"
-        class="btn btn-primary"
+		onclick="window.location.reload()"
+        class="btn btn-primary m-2"
         >RESET GAME <i class="glyphicon glyphicon-refresh"> </i
       ></a>
 
-      <a href="https://github.com/Ricky-hentama" class="btn btn-light"
+      <a href="https://github.com/Ricky-hentama" class="btn btn-light m-2"
         >MY GITHUB <img src="img/github.svg" height="22px" id="github"
       /></a>
     </div>
+	
+	<div class="text-center align-middle pt-2 pb-4">
+	  <div class="form-group d-inline">
+		<label class="text-large pr-2" for="ImageSet">Image Set:</label>
+		<select class="form-control d-inline-block" id="ImageSet">
+		  <option>Default</option>
+		  <option>Random</option>
+		</select>
+	  </div>
+	</div>
+	
     <div class="container">
       <div class="papan">
         <div class="baris">
@@ -49,8 +67,5 @@
         </div>
       </div>
     </div>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/script.js"></script>
   </body>
 </html>

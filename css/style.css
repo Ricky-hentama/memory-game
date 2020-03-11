@@ -7,6 +7,14 @@ h1 {
   margin-top: -5px;
 }
 
+#ImageSet{
+  width: fit-content;
+}
+
+.text-large{
+  font-size: 1.5rem;
+}
+
 .papan {
   margin: auto;
 }
@@ -16,16 +24,18 @@ h1 {
 }
 
 .kartu {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #cfc8c8;
+  
   height: 150px;
   width: 150px;
   display: inline-block;
   margin: 2px 2px;
   cursor: pointer;
-}
-
-.done {
-  cursor: default;
+  
+  transition: all 200ms linear;
 }
 
 .kartu:hover {
@@ -33,74 +43,12 @@ h1 {
   box-sizing: border-box;
 }
 
-/* class nama */
-
-.ricky {
-  background-image: url("../img/ricky.jpg");
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.janu {
-  background-image: url("../img/janu.png");
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.umar {
-  background-image: url("../img/umar.png");
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.reza {
-  background-image: url("../img/reza.png");
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.purno {
-  background-image: url("../img/purno.png");
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.fuad {
-  background-image: url("../img/fuad.png");
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.gani {
-  background-image: url("../img/gani.png");
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.adit {
-  background-image: url("../img/adit.png");
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.done {
+  cursor: default;
 }
 
 /* akhir class nama */
 
 .color-hidden {
-  background-image: url("../img/cover-penta.jpg");
+  background-image: url("../img/cover-penta.jpg") !important;
 }
